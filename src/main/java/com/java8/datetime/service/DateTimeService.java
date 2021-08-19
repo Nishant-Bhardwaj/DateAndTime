@@ -29,7 +29,7 @@ public class DateTimeService {
         return LocalDate.now()
                 .plusYears(years)
                 .plusMonths(months)
-                .minusDays(days);
+                .plusDays(days);
     }
 
     public DayOfWeek getDayOfWeek(LocalDate localDate){
